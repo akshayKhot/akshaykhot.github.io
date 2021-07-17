@@ -32,11 +32,11 @@ You can also create multiple resources in the same line.
 resources :photos, :books, :videos
 ```
 
-Create nested routes using the following syntax. This allows you to refer to a `bid` in the context of an `auction`.
+Nested routes allow you to refer to a `comment` in the context of a `post`.
 
 ```ruby
-resources :auctions do
-  resources :bids
+resources :posts do
+  resources :comments
 end
 ```
 
