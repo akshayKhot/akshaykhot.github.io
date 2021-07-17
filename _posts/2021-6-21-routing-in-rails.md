@@ -96,7 +96,7 @@ end
 you can further dry up the above code by using the `:path` argument to scope.
 
 ```ruby
-scope path: "/auctions", controller: :actions do
+scope path: "/auctions", controller: :auctions do
   get "new" => :new
   get "edit/:id" => :edit
   post "pause/:id" => :pause
@@ -119,7 +119,7 @@ end
 
 **Resource Routing**
 
-Quickly declare all the common routes for a resource. It generates the routes for` index`, `show`, `new`, `create`, `edit`, `update`, and `destroy` actions. For example, a single entry in the rouging file, such as:
+Quickly declare all the common routes for a resource. It generates the routes for` index`, `show`, `new`, `create`, `edit`, `update`, and `destroy` actions. For example, a single entry in the routing file, such as:
 
 ```ruby
 resource :photos
