@@ -46,9 +46,10 @@ When you name a route, two new methods get defined for use in your controllers a
 - `name_path` : returns the path part of the URL (relative URL) without the protocol and host. 
 
 ```ruby
-get "help" => "home#index", as: "home"
-# name_url : https://railsapp.com/home/index
-# name_path : /home/index
+get "help" => "help#show", as: "help"
+
+# help_url : https://railsapp.com/help
+# help_path : /help
 ```
 
 Using named routes, you can simplify the following code:
