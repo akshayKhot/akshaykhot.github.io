@@ -4,7 +4,7 @@ title: "Ruby Standard Library: CSV"
 tags: ruby
 ---
 
-Here are my notes from the standard library [documentation](https://ruby-doc.org/stdlib-3.0.1/libdoc/csv/rdoc/CSV.html) for the CSV module. I took the notes as I was reading the docs and programming at the same time, so they aren't formatted very well, but they do capture the essence of working with CSV data in Ruby. 
+Here are my notes from the standard library [documentation](https://ruby-doc.org/stdlib-3.0.1/libdoc/csv/rdoc/CSV.html) for the CSV module. I took the notes while simultaneously reading the docs and programming, so they aren't formatted very well, but they capture the essence of working with CSV data in Ruby. 
 
 CSV stands for comma-separated values.
 
@@ -39,23 +39,22 @@ The `CSV` class in the Ruby standard library helps us parse:
 
 It can also generate CSV data as a String.
 
-For most of the basic purposes the singleton (static) methods on the CSV class will do.
+For most basic purposes, the singleton (static) methods on the CSV class will do.
 
 **Parsing CSV String**
 
 1. `CSV.parse(csv_string)`
 
-Returns an Array of Array of Strings. The first array represents the table and the inner arrays
-represent the rows. Each String inside the Array represent a field value.
+Returns an Array of Array of Strings. The first array represents the table, and the inner arrays
+represent the rows. Each String inside the Array represents a field value.
 
 2. `CSV.parse_line(csv_string)`
 
-Returns the first row, which is typically the header columns.
+Returns the first row, which contains the header columns.
 
 3. `String.parse_csv`
 
-Ruby's monkey-patching also allows it to extend a String, to add the `parse_csv` method. This
-method also returns the first row.
+Ruby's monkey-patching also allows it to extend a String to add the `parse_csv` method. This method also returns the first row.
 
 The following example illustrates the above methods.
 
@@ -134,7 +133,7 @@ output = CSV.generate_line(values)
 puts output
 ```
 
-Finally, the CSV class also extends Array, so you can simply call `to_csv` to build a CSV string from an Array.
+Finally, the CSV class also extends Array, so you can call `to_csv` to build a CSV string from an Array.
 
 ```ruby
 values = %w{ hello world }
