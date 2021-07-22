@@ -41,3 +41,5 @@ By default, the schema file uses the `:ruby` format, but you can set it to `:sql
 To create a new instance of your database, you can simply run the `rails db:schema:load` command. It's better than running the entire migration history, as it may fail to apply correctly. 
 
 The `:ruby` format cannot express everything in the database schema, such as triggers, stored procedures, etc. Setting the format to `:sql` will ensure that an accurate schema is generated and a perfect copy of the database schema is created upon running `db:schema:load`. 
+
+The `db/schema.rb` or `db/structure.sql` is a snapshot of the current state of your database and is the authoritative source for rebuilding that database. This allows you to delete old migration files.
