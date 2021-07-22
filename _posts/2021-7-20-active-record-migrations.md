@@ -113,3 +113,39 @@ class CreateJoinTableCustomerProduct < ActiveRecord::Migration[6.0]
 end
 ```
 
+**Model Generation**
+
+If you would like to generate a model class along with the migration, use the model generator.
+
+```shell
+➜  rails generate model Post title:string content:text
+
+Running via Spring preloader in process 71862
+      invoke  active_record
+      create    db/migrate/20210722065837_create_posts.rb
+      create    app/models/post.rb
+      invoke    test_unit
+      create      test/models/post_test.rb
+      create      test/fixtures/posts.yml
+```
+
+This generates the following code.
+
+```ruby
+# xxxx_create_posts.rb
+class CreatePosts < ActiveRecord::Migration[6.1]
+  def change
+    create_table :posts do |t|
+      t.string :title
+      t.text :content
+
+      t.timestamps
+    end
+  end
+end
+
+# post.rb
+class Post < ApplicationRecord
+end
+```
+
