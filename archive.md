@@ -6,7 +6,7 @@ permalink: /archive/
 
 <section class="archive">
 
-{% assign posts = site.blog | concat: site.posts | sort: 'date' | reverse %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
   {% for post in posts %}
   {% assign currentdate = post.date | date: "%B %Y" %}
   {% if currentdate != date %}
