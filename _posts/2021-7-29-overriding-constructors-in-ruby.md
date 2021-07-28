@@ -4,9 +4,7 @@ title: Overriding Constructors in Ruby
 tags: ruby
 ---
 
-Did you know that Ruby allows you to override the `new` method on a class, allowing you to customize the creation of all objects? 
-
-Everything in Ruby is an object, including the classes themselves. Classes are first-class objects. When you create a new class, you are basically creating an instance of class `Class`. 
+Everything in Ruby is an object, including the classes themselves. Classes are first-class objects. When you create a new class, you are basically creating an instance of class `Class`. Ruby even allows you to override the `new` method on a class, allowing you to customize the creation of all objects.
 
 ```ruby
 class Person
