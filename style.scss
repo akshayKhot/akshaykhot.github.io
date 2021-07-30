@@ -100,6 +100,11 @@ header {
 			font-weight: bold;
 		}
 
+		span.site-description {
+			color: #fff;
+			font-size: 0.7em;
+		}
+
 		@media screen and (max-width: 800px) {
 			div.site-name {
 				font-size: 1.7em;
