@@ -8,7 +8,7 @@
 @import "variables";
 
 body {
-	background-color: #fff;
+	// background-color: #F9F8F4;
 }
 
 img {
@@ -57,7 +57,6 @@ hr {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 
-	background: #fff;
 	box-sizing: border-box;
 	padding: 0px 0px;
 
@@ -86,9 +85,8 @@ hr {
 }
 
 header {
-	padding: 2em 1em 1em 1em;
-	border-radius: 4px;
-	background-color: #111;
+	padding: 2em 1em 0em 1em;
+	// background-color: #F9F8F4;
 
 	div.site-info {
 		div.site-name {
@@ -98,7 +96,6 @@ header {
 		}
 
 		span.site-description {
-			color: #fff;
 			font-size: 0.7em;
 		}
 
@@ -110,17 +107,16 @@ header {
 
 		a {
 			text-decoration: none;
-			color: #fff;
 		}
 	}
 
 	nav {
 		margin-top: 1em;
-		font-size: 1em;
+		font-size: 0.9em;
 
 		a {
-			margin-right: 1em;
-			color: #fff;
+			margin-right: 0.5em;
+			text-decoration: underline;
 		}
 	}
 }
@@ -136,7 +132,7 @@ main {
 		margin-bottom: 2em;
 
 		.post-title {
-			font-size: 1.1em;
+			font-size: 1.2em;
 			font-weight: bold;
 			margin-top: 1em;
 
