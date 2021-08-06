@@ -5,7 +5,7 @@
 # Name of your site (displayed in the header)
 name: Write Software, Well
 
-paginate: 7
+paginate: 10
 
 collections:
   books:
