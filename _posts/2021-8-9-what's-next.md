@@ -4,7 +4,7 @@ title: "What's Next?"
 tags: career
 ---
 
-A lot happened last week. I had a great interview with the Wave team, and they offered me a six-figure job as a Ruby on Rails developer on their payroll product. Wave is a Toronto-based company full of brilliant engineers, and I can't wait to join the team. 
+A lot happened last week. I had a great interview with the Wave team, and they offered me a great job as a Ruby on Rails developer on their payroll product. Wave is a Toronto-based company full of brilliant engineers, and I can't wait to join the team. 
 
 **However, the condition is that I should be based in Canada.** Anywhere in Canada, but in Canada.
 
