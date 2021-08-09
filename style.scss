@@ -129,7 +129,9 @@ main {
 	}
 
 	article.post {
+		padding-bottom: 2em;
 		margin-bottom: 2em;
+		border-bottom: 1px solid #aaa;
 
 		.post-title {
 			font-size: 1.3em;
