@@ -3,7 +3,6 @@ layout: post
 title: Leaving CityView
 tags: cityview career
 img: cityview-logo.jpeg
-excerpt_separator: <!--more-->
 ---
 
 After almost four years at CityView, I have made the difficult decision to leave.
