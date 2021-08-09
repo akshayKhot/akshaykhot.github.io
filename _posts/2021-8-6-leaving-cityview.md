@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Leaving CityView
-tags: cityview
+tags: cityview career
 img: cityview-logo.jpeg
 excerpt_separator: <!--more-->
 ---
