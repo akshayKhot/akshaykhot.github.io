@@ -9,10 +9,13 @@ Often you want to pick a random value from an array of variable length. Typicall
 ```ruby
 > languages = %w(ruby c-sharp java python cpp golang javascript)
 => ["ruby", "c-sharp", "java", "python", "cpp", "golang", "javascript"]
+
 > languages[rand(languages.length)]
 => "c-sharp"
+
 > languages[rand(languages.length)]
 => "javascript"
+
 > languages[rand(languages.length)]
 => "java"
 ```
@@ -26,8 +29,10 @@ Just use [`Array#sample`](https://ruby-doc.org/core-3.0.1/Array.html#method-i-sa
 ```ruby
 > languages.sample
 => "java"
+
 > languages.sample
 => "c-sharp"
+
 > languages.sample
 => "golang"
 ```
@@ -44,8 +49,10 @@ If you pass a number `n`,  it returns a new array that contains `n` random eleme
 ```ruby
 > languages.sample(3)
 => ["c-sharp", "ruby", "javascript"]
+
 > languages.sample(1)
 => ["javascript"]
+
 > languages.sample(4)
 => ["javascript", "java", "golang", "python"]
 ```
