@@ -23,5 +23,5 @@ However, multiplying an array with a separator accomplishes the same.
 => "a, b, c, d, e"
 ```
 
-Is it concise? Definitely. Radable and expressive? I am not sure. However, it rhymes with the Ruby way of giving the programmer [freedom to choose](https://akshaykhot.com/presence-in-array/). 
+Is it concise? Definitely. Readable and expressive? I am not sure. However, it rhymes with the Ruby way of giving the programmer [freedom to choose](https://akshaykhot.com/presence-in-array/). 
 
