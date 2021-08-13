@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Check if a Variable is Defined
+title: How to Check if a Variable is Defined?
 tags: ruby
 ---
 
