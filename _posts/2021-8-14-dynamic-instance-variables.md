@@ -48,3 +48,4 @@ For example, if I create another `Task` object and call the `stop` method, it wo
 => [:@finished]
 ```
 
+Very interesting. 
