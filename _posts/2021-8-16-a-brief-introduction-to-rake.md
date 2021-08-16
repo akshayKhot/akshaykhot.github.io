@@ -4,11 +4,7 @@ title: Exploring Rake
 tags: ruby rake
 ---
 
-Since the day I started learning Ruby, I kept hearing about rake. Apparently, it's everywhere. So finally, I took a break from learning Rails and spent the evening exploring rake. Here's everything I've learned so far. 
-
-**What is Rake?** 
-
-A task runner written in Ruby. It performs repetitive tasks, such as
+Rake is a task runner written in Ruby. It performs repetitive tasks, such as
 
 1. Making database backup
 2. Running tests
