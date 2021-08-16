@@ -14,7 +14,7 @@ A task runner written in Ruby. It performs repetitive tasks, such as
 2. Running tests
 3. Watch for file changes and compile the changed files
 
-In the words of late Jim Weirich, the creator or rake, 
+In the words of late Jim Weirich, the creator of rake, 
 
 > The essence of rake is to take a task and break it down into its component pieces to specify what needs to be done to do the bigger task you are trying to do.  
 
