@@ -4,7 +4,7 @@ title: Caching in Rails
 tags: rails
 ---
 
-**What is Caching?** 
+These are the notes I took while reading the [Rails caching guide](https://guides.rubyonrails.org/caching_with_rails.html). 
 
 Caching is one of the most effective ways to boost an application's performance. It stores content generated during the request-response cycle to reuse it when responding to similar requests. 
 
@@ -57,3 +57,8 @@ Rails provides the following cache stores:
 4. RedisCacheStore: uses Redis as a cache. 
 
 These were the basics of caching in Rails. I will add new posts as I learn more. 
+
+
+
+
+
