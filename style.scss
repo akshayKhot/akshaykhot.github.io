@@ -128,6 +128,23 @@ main {
 		color: $link-color;
 	}
 
+	blockquote {
+		font-size: 0.9em;
+
+		p {
+			margin: 0 !important;
+		}
+
+		p:not(:last-child) {
+			padding-bottom: 1em;
+		}
+
+		border-left: 2px solid $gray;
+		padding: 1.3em;
+		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+		background-color: lightyellow;
+	}
+
 	article.post {
 		padding-bottom: 1em;
 		margin-bottom: 2em;
@@ -164,21 +181,6 @@ main {
 				margin-top: 1.5em;
 				font-size: 1.1em;
 				font-weight: bold;
-			}
-
-			blockquote {
-				p {
-					margin: 0;
-				}
-
-				p:not(:last-child) {
-					padding-bottom: 1em;
-				}
-
-				border-left: 2px solid $gray;
-				padding: 1.3em;
-				box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-				background-color: lightyellow;
 			}
 
 			li {
@@ -263,6 +265,21 @@ div.book {
 	img {
 		max-width: 200px;
 		max-height: 200px;
+	}
+}
+
+div.resume {
+	margin: 2em 0;
+	
+	img {
+		max-width: 100px;
+		max-height: 100px;
+		padding-bottom: 1em;
+	}
+	
+	img:hover {
+		transform: scale(1.1);
+		transition-duration: 0.1s;
 	}
 }
 
