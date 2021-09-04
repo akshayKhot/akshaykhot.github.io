@@ -4,11 +4,35 @@ title: Hire Me
 permalink: /hire-me/
 ---
 
+<div class="about">
+    <a href="/images/Akshay.jpeg">
+    <img src="/images/Akshay.jpeg" alt="Akshay Khot">
+    </a>
+</div>
+
+My name is Akshay, and I am a software developer based in Victoria, British Columbia. I've been programming for the past decade, striving to write quality software that solves real problems.  I have more than four years of professional experience as a full-stack .NET developer. 
+
+I have worked on all layers of the stack, including the database, back-end, and front-end. Most of my professional experience has been in the Windows and Azure ecosystem, with a few side projects on Linux. I am proficient in C# and TypeScript, as I used them daily at my previous companies. On the framework side, I am competent in .NET and Node ecosystems. I also have some DevOps experience with Docker. 
+
+A few months ago (March 2021), I started learning and experimenting with Ruby for one of my side-projects. After working with C# and .NET for the past six years, it was a breath of fresh air. Within a week, I was in love with this beautiful programming language. After a few months of working in Ruby (and Rails), I made a big decision to switch from being an enterprise C#/.Net developer to a Ruby and Rails programmer.  
+
+I did my Master's in Computer Science from the University of Victoria. My work involved designing & implementing a scalable algorithm to find the most influential users in a network. I published a short paper based on my thesis in EDBT Vienna 2018 (Microsoft Research). You can find a copy of my thesis [here](https://dspace.library.uvic.ca//handle/1828/8885).   
+
+As a software developer, my primary goal is to build useful software that solves problems and provides value to the users, and I approach all my projects with the same mindset. I am very passionate about software development and am always looking forward to learning new skills and becoming a better software developer.
+
+For more information, please download my resume below. If you think I can add value to your team or organization, please drop me an [email](mailto:akshay.khot@hey.com). I look forward to talking to you. 
+
+Thanks for stopping by.
+
+***Akshay Khot***
+
 <div class="resume">
 	<a href="{{ site.baseurl }}/download/akshay_khot_resume.pdf">
 	<img src="{{ site.baseurl }}/images/resume.png" alt="Resume">
 	</a>
 </div>
+
+***Testimonials***
 
 > Akshay is highly motivated and takes great interest in the Software Development process. He is constantly upgrading his knowledge and skills, and always strives to produce the best design. 
 >
@@ -42,7 +66,9 @@ permalink: /hire-me/
 
 > I worked with Akshay at the Appreciation Engine between September 2017 and December 2017. We worked remotely: Akshay from Canada and me from New Zealand. 
 >
-> I found Akshay to be a great communicator - we had to communicate remotely on a daily basis to discuss work and programming questions. He was a very fast with excellent programming skills, He was able to pick up PHP quickly and was also quick to pick up the Drupal framework. He was always keen to learn and asked great questions about the code, always making good suggestions and showing an excellent understanding of the coding principles. He was a great fit for our team. 
+> I found Akshay to be a great communicator - we had to communicate remotely on a daily basis to discuss work and programming questions. He was a very fast with excellent programming skills, He was able to pick up PHP quickly and was also quick to pick up the Drupal framework. 
+> 
+> He was always keen to learn and asked great questions about the code, always making good suggestions and showing an excellent understanding of the coding principles. He was a great fit for our team. 
 >
 > It is a shame to see him go but I am certain he will be an excellent asset to all future endeavours.
 >
