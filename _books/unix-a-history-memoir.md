@@ -250,7 +250,7 @@ Dennis’s original C reference manual formed the basis of the ANSI/ISO standard
 
 - Received his undergraduate degree in Physics from Cornell in 1954 and Ph.D. in Applied Mathematics from MIT in 1959. 
 - Worked for a summer at Bell Labs, joining permanently in 1958, and became head of the Computing Techniques Research dept. in 1965. 
-- Once Unix was underway, he wrote a wide variety of fundamental software, e.g. storage allocator ***malloc, spell, diff, sort, join, graph, speak, tr, tsort, calendar, echo,\*** and ***tee.\*** Pipes were his idea, too (though the final version used Ken's syntax).
+- Once Unix was underway, he wrote a wide variety of fundamental software, e.g. storage allocator ***malloc, spell, diff, sort, join, graph, speak, tr, tsort, calendar, echo,*** and ***tee***. Pipes were his idea, too (though the final version used Ken's syntax).
 - Doug was a superb technical critic, often the first to try out some new program or idea. He would experiment at the earliest possible time and, since he had excellent taste, his opinions on what was good and what needed to be fixed were invaluable. 
 - Stepped down from management role in 1986 and retired from the Labs in 1997, to teach at Dartmouth.    
 
