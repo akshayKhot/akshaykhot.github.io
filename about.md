@@ -27,7 +27,7 @@ Thanks for stopping by.
 ***Akshay Khot***
 
 <div class="resume">
-	<a href="{{ site.baseurl }}/download/akshay_khot_resume.pdf">
+	<a href="{{ site.baseurl }}/resume/akshay_khot_resume.pdf">
 	<img src="{{ site.baseurl }}/images/resume.png" alt="Resume">
 	</a>
 </div>
