@@ -1,0 +1,77 @@
+body{
+	font-size: 16px;
+	background-color: azure;
+	line-height: 1.7em;
+}
+
+.b {
+	border: 1px solid #ddd;
+}
+
+main {
+	background-color: #fff;
+	width: 775px;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 1.5em !important;
+	padding-bottom: 0.5em;
+	box-shadow: 0px 24px 3px -24px #ddd;
+
+}
+
+header div.intro {
+	padding-top: 2em;
+	text-align: center;
+}
+
+header div.intro p {
+	margin-top: 1em;
+
+}
+
+header div.contact p {
+	text-align: left;
+	padding-bottom: 0.4em;
+}
+
+header div.contact span {
+	margin-right: 0.6em;
+}
+
+header p {
+	font-style: italic;
+}
+
+header img {
+	border-radius: 5px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3em;
+}
+
+section div.title {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+section {
+	padding-bottom: 1em;
+}
+
+section ul li {
+	margin: 0.5em 0;
+}
+
+div.skills span {
+	display: inline-block;
+	padding: 3px 7px;
+	border: 1px solid #ddd;
+	margin-bottom: 0.5em;
+	margin-right: 5px;
+	border-radius: 7px;
+	/* background-color: lightyellow; */
+}
