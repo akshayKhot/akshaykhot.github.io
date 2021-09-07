@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Why, What, and How of DNS
+title: Why, What, and How of DNS
 tags: why-what-how
 so: dns/stackoverflow.png
 host: dns/host.png
