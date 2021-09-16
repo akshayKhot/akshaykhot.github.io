@@ -12,6 +12,58 @@ Action Pack consists of following modules:
 
 Rails developers only directly interact with the Action Controller module. Action Despatch works silently in the background, handling incoming requests. However, these modules can be used independently outside of Rails. 
 
+**What is Rack?**
+
+Rack sits between an application and a web server. It provides a simple interface between web servers and web frameworks written in Ruby. 
+
+A Rack application is an object that responds to the `call` method. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Rails Middleware Pipeline**
 
 ```ruby
