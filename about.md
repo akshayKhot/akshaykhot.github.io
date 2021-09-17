@@ -16,8 +16,6 @@ I have worked on all layers of the stack, including the database, back-end, and 
 
 A few months ago (March 2021), I started learning and experimenting with Ruby for one of my side-projects. After working with C# and .NET for the past six years, it was a breath of fresh air. Within a week, I was in love with this beautiful programming language. After a few months of working in Ruby (and Rails), I made a big decision to switch from being an enterprise C#/.Net developer to a Ruby and Rails programmer.  
 
-I did my Master's in Computer Science from the University of Victoria. My work involved designing & implementing a scalable algorithm to find the most influential users in a network. I published a short paper based on my thesis in EDBT Vienna 2018 (Microsoft Research). You can find a copy of my thesis [here](https://dspace.library.uvic.ca//handle/1828/8885).   
-
 As a software developer, my primary goal is to build useful software that solves problems and provides value to the users, and I approach all my projects with the same mindset. I am very passionate about software development and am always looking forward to learning new skills and becoming a better software developer.
 
 For more information, please download my resume below. If you think I can add value to your team or organization, please drop me an [email](mailto:akshay.khot@hey.com). I look forward to talking to you. 
