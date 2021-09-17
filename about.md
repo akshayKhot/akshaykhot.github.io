@@ -31,8 +31,13 @@ Thanks for stopping by.
 	<img src="{{ site.baseurl }}/images/resume.png" alt="Resume">
 	</a>
 </div>
-
 ***Testimonials***
+
+> I worked with Akshay for over 5 years, initially at Econics and was very pleased to be able to recruit him to CityView. He is always highly motivated, enthusiastic and a quick learner. He is not only constantly improving his software development skills but also takes a keen interest in understanding the domain of any problem. 
+>
+> We relied on him as the lead developer for several new, innovative, complex features – with great success. He has excellent communication skills whether it is with a technical team or clients and end users. He brings great value to any development team. I would definitely enjoy working with Akshay again.
+>
+> ***\- Steve Graham, Chief Technical Architect, CityView***
 
 > Akshay is highly motivated and takes great interest in the Software Development process. He is constantly upgrading his knowledge and skills, and always strives to produce the best design. 
 >
