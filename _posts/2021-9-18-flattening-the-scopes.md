@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flattening Scopes
+title: Scope Flattening
 tags: ruby
 ---
 
