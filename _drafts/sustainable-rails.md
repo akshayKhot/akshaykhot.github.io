@@ -9,7 +9,9 @@ Sustainable software minimizes the cost of developing and maintaining software o
 
 It is a good practice to document why gems are there and what they do. Ruby gems don’t have a great history of self-explanatory naming, so taking a few seconds to document what a gem is for will help everyone in the future when they need to understand the app.
 
-### Routes
+---
+
+**Routes**
 
 Stick to the most basic features of the Rails router. It means anyone can easily understand your routes, and even the most inexperienced developer can begin adding features. This is sustainable over many years. 
 
@@ -22,3 +24,12 @@ Stick to the most basic features of the Rails router. It means anyone can easily
 - Don't create custom actions, create more resources.
 
 - Resources should never be nested more than one level deep.  
+
+---
+
+**HTML Templates**
+
+
+
+
+
