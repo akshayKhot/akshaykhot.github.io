@@ -146,3 +146,5 @@ greet_method.call   # Hello World
 You can convert a `Method` to a `Proc` by calling `Method#to_proc`. You can also convert a block to a method by using  `define_method` and associating the block with it. 
 
 An important difference between the lambdas and methods is that Ruby evaluates a lambda in the scope it's defined it. In contrast, a `Method` is evaluated in the scope of its object. 
+
+*from: [Metaprogramming Ruby 2](https://learning.oreilly.com/library/view/metaprogramming-ruby-2/9781941222751/)*
