@@ -28,6 +28,8 @@ modify_strings_in_place
 
 - Use the shift operator `<<` to append strings, instead of using `+=`. 
 
+When you use `+=`, Ruby creates an intermediate string and assigns it to the original string after appending. 
+
 ```ruby
 def append_to_string
   measure do
@@ -47,8 +49,6 @@ append_to_string
 # {"3.0.2":{"gc":"disabled","time":9.42,"gc_count":0,"memory":"6412 MB"}}
 # {"3.0.2":{"gc":"disabled","time":0.01,"gc_count":0,"memory":"-2 MB"}}
 ```
-
-When you use `+=`, Ruby creates an intermediate string and assigns it to the original string after appending. 
 
 - Modify Arrays in-place. Do not create a modified copy of the same array unless really necessary. 
 
