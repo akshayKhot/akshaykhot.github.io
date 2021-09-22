@@ -6,7 +6,7 @@ tags: ruby
 
 Every time you create or copy something in memory, you add work for GC. Here are some tips from the book [Ruby Performance Optimization](https://learning.oreilly.com/library/view/ruby-performance-optimization/9781680501681/) to write code without using too much memory. 
 
-- Modify strings in-place. 
+**Modify strings in-place.** 
 
 Instead of making a changed copy, you change the original string. Look for "bang!" functions, such as `trim!`, `gsub!`, `slice!` etc. Use them when you don't need the original string. 
 
@@ -26,7 +26,7 @@ modify_strings_in_place
 # {"3.0.2":{"gc":"disabled","time":0.01,"gc_count":0,"memory":"0 MB"}}
 ```
 
-- Use the shift operator `<<` to append strings, instead of using `+=`. 
+**Use the shift operator `<<` to append strings, instead of using `+=`.** 
 
 When you use `+=`, Ruby creates an intermediate string and assigns it to the original string after appending. 
 
@@ -50,7 +50,9 @@ append_to_string
 # {"3.0.2":{"gc":"disabled","time":0.01,"gc_count":0,"memory":"-2 MB"}}
 ```
 
-- Modify Arrays in-place. Do not create a modified copy of the same array unless really necessary. 
+**Modify Arrays in-place.** 
+
+Do not create a modified copy of the same array unless really necessary. 
 
 ```ruby
 def modify_array_in_place
