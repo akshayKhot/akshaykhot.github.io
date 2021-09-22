@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby Classes
+title: Class Metaprogramming in Ruby
 tags: ruby
 ---
 
